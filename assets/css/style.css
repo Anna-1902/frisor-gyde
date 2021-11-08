@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Thasadith', sans-serif;
+}
+
+header {
+    background-color: #70995C;
+    display: block;
+    clear: both;
+    height: 110px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: sticky;
+    top: 0;
+}
+
+.frisør-gyde {
+    font-family: 'Wire One', sans-serif;
+    font-size: 40px;
+    display: inline;
+    float: left;
+    text-align: left;
+    padding: 0px;
+    margin: 10px 100px;
+    color:white;
+    text-decoration: none;
+}
+
+nav {
+    display: inline;
+    float: right;
+    height: 50px;
+    background-color: #70995C;
+    padding: 0px;
+    margin: 10px 100px;
+}
+
+.nav-links {
+    list-style: none;
+    text-align: center;
+    clear: both;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 5px 0;
+    margin-left: 40px;
+    height: 50px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.nav-links li a:hover {
+    border-bottom: solid white 2px;
+    padding-bottom: 2px; 
+}
+
+.aktiv {
+    border-bottom: solid white 2px;
+    padding-bottom: 2px; 
+}
+
+.banner {
+    background-image: url('../image/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    clear: both;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.bannertext {
+    display: block;
+    background-color: #343238bf;
+    float: left;
+    height: 200px;
+    width: 400px;
+    margin: 150px 100px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.book-tid {
+    border: white solid 1px;
+    display: block;
+    clear: both;
+    width: 150px;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    margin: 30px 100px;
+    border-radius: 5px;
+    padding: 10px
+}
+
+.book-tid:hover {
+    background-color: #70995caa;
+}
+
+.box1 {
+    background-color: #E9EEE4;
+    display: block;
+    clear: both;
+    margin: 0;
+    padding: 50px 100px;
+    height: auto;
+}
+
+.text1 {
+    display: block;
+    float: left;
+    clear: both;
+    text-align: left;
+    font-size: 30px;
+}
+
+.text1 p {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.salon {
+    background-color: #34323814;
+    display: inline-block;
+    width: 230px;
+    height: auto;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.salon img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.gyde {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    display: block;
+    float: right;
+}
+
+.priser-top {
+    background-color: #E9EEE4;
+    display: block;
+    clear: both;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.priser-top p {
+    font-size: 20px;
+    margin: 0 100px;
+    padding: 0;
+    line-height: 30px;
+}
+
+.book-tid1 {
+    border: black solid 1px;
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    margin: 30px 100px;
+    border-radius: 5px;
+    padding: 10px
+}
+
+.book-tid1:hover {
+    background-color: #70995caa;
+    color: white;
+}
+
+.priser {
+    border: none;
+    text-align: left;
+    border-spacing: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+.priser th {
+    background-color: #70995caa;
+    font-weight: bold;
+    color: white;
+    padding: 0 5px;
+}
+
+.priser td {
+    padding: 0 5px;
+}
+
+.pright {
+    text-align: right;
+}
+
+.galleri {
+    background-color: #E9EEE4;
+    display: block;
+    clear: both;
+    padding: 30px 100px;
+    font-size: 30px;
+}
+
+.galleri h2 {
+    text-align: center;
+}
+
+.galleri p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.galleribox {
+    background-color: #34323814;
+    display: inline-block;
+    width: 230px;
+    height: 300px;
+    padding: 20px 10px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.galleribox img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.galleribox div {
+    margin: 10px;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.galleribox div p {
+    font-style:italic;
+    text-align: left;
+    font-size: 15px;
+}
+
+.galleribox div h4 {
+    font-weight: bold 700;
+    text-align: right;
+}
+
+.margin-right {
+    margin-right: 15px;
+}
+
+.inspireret {
+    font-weight: normal;
+    font-size: 30px;
+}
+.book-tid2 {
+    border: black solid 1px;
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    margin: 30px 0px;
+    border-radius: 5px;
+    padding: 10px
+}
+
+.book-tid2:hover {
+    background-color: #70995caa;
+    color: white;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: #343238;
+    height: auto;
+    padding: 20px 100px;
+}
+
+.kontakt, .åbningstider, .adresse {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-spacing: 10px;
+    text-align: left;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.kontakt, .åbningstider {
+    margin-right: 120px;
+}
+
+.kontakt a {
+    text-decoration: none;
+    color: white;
+}
